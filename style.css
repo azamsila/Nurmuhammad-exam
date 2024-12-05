@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather-contaner {
+    width: 428px;
+    border-radius: 50px;
+    background: linear-gradient(168.87deg, #19C3FB 2.43%, #1D71F2 99.31%);
+    box-shadow: -40px 60px 150px 0px #3B267BB2;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.search-input input {
+    width: 358px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #D9D9D91A;
+    border: 2px solid #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.71px;
+    padding: 15px 193px 14px 15px;
+}
+
+.search-input {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.weather-img {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.weather-img img {
+    width: 244px;
+    height: 280px;
+}
+
+.weather-num {
+    width: 203px;
+    height: 75.78px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 10px 170px;
+}
+
+.city {
+    font-family: 'Poppins';
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+
+.max {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.min {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content-footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.weather-year {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.day {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.month {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.search-btn button {
+    width: 304px;
+    height: 72px;
+    border-radius: 50px;
+    background: #DDB130;
+    border: none;
+
+    font-family: Open Sans;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #362A84;
+}
+
+.search-btn {
+    text-align: center;
+}
+
+.weather-bottom {
+    width: 428px;
+    height: 246px;
+    border: 1px solid;
+    border-image-source: linear-gradient(224.18deg, rgba(247, 203, 253, 0.5) 24.64%, rgba(255, 255, 255, 0) 94.18%);
+    box-shadow: 0px 1px 4px 0px #00000040;
+    border-radius: 30px;
+    background-color: #5945ba;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
